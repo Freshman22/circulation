@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+}
+
+.header {
+  display: grid;
+  height: 100vh;
+  background-image: url(./img/pexels-egor-kamelev-753271.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.header__title {
+  justify-self: center;
+  align-self: center;
+  color: aliceblue;
+  font-size: 10vh;
+  letter-spacing: 1vh;
+  border-bottom: 1px solid white;
+}
+
+.article {
+  display: grid;
+  grid-template-rows: minmax(10vw, 1fr);
+  padding: 5vh;
+  max-width: 80vw;
+  margin: 0 auto;
+  /* &__text {
+      padding: 1vh;
+  } */
+}
+.article__main {
+  display: grid;
+}
+.article__header {
+  display: grid;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.article__text {
+  padding: 5vh 2vw;
+  letter-spacing: 0.3vh;
+  line-height: 4vh;
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+}
+.article__text--header {
+  text-align: center;
+}
+.article__text--underline {
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 10vh;
+  background-color: black;
+}
+
+footer p {
+  justify-self: center;
+  align-self: center;
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */
