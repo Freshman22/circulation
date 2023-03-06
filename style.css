@@ -31,9 +31,6 @@
   padding: 5vh;
   max-width: 80vw;
   margin: 0 auto;
-  /* &__text {
-      padding: 1vh;
-  } */
 }
 .article__main {
   display: grid;

@@ -6,7 +6,6 @@
 
 .container {
     display: grid;
-
 }
 
 .header {
@@ -42,7 +41,6 @@
         display: grid;
         justify-content: center;
         text-transform: uppercase;
-        // margin-bottom: 2vh;
     }
 
     &__text {
@@ -62,10 +60,6 @@
             text-transform: uppercase;
         }
     }
-
-    /* &__text {
-        padding: 1vh;
-    } */
 }
 
 .footer {
